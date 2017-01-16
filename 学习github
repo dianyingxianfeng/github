@@ -1,0 +1,36 @@
+客户端配置
+
+        服务端  github上创建帐号，创建项目
+
+        客户端  ubuntu系统上安装git.
+克隆项目
+
+        github网页端找到创建的项目，复制url。
+
+        客户端第一次同步（完成第一次同步）
+
+                git clone 项目地址
+                
+                找到自己的工作目录，同步到自己的工作目录，网页端的数据就同步到了当前的
+        工作区，所有的文件。
+	
+	查看当前的项目的状态
+
+	git status
+
+	
+	添加文件的命令
+
+	git add 文件名称   (添加当前某个文件)
+ s
+	git add .  （当前全部文件）
+	
+	git commit	(提交当前目录文件）(@@@这里是提交本地工作区)
+
+			提交后他要求我提交一个变更的评论。记录当前修改了什么！
+
+			（报错“fatal: Not a git repository (or any of the parent directories): .git
+”）
+			解决办法（git init）
+
+	git push       这里是提交到网络工作区， 会提示帐号密码。			
